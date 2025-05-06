@@ -105,7 +105,7 @@ func Mount(entrada []string) (string){
 									Structs.AddPathM(pathE, nuevaLetra, 1)
 								}
 
-								id = "56"+strconv.Itoa(contador)+string(nuevaLetra)  
+								id = "98"+strconv.Itoa(contador)+string(nuevaLetra)  
 								 
 								 
 								Structs.AddMontadas(id, pathE)
