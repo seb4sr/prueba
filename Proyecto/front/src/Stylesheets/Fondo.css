@@ -1,0 +1,14 @@
+.body{
+    color: black
+}
+
+.circle {
+  width: 100px; /* Tamaño del cuadrado */
+  height: 30px; /* Tamaño del cuadrado */
+  border-radius: 10px; /* Redondea los bordes del cuadrado */
+  background-color: #93b8e9; /* Color de fondo del cuadrado */
+  text-align: center; /* Centra la letra horizontalmente */
+  line-height: 30px; /* Centra la letra verticalmente */
+  font-size: 13px; /* Tamaño de la letra */
+  font-weight: bold; /* Peso de la letra */
+  }

@@ -1,0 +1,88 @@
+
+
+/*Ordenado de afuera hacia adentro*/
+p{    
+    margin: 35px 0px 0px 0px; /*Arriba derecha abajo izquierda*/
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(7, 7, 7);
+    font-size: 14px;   
+}
+
+.entrada{
+    height: 300px; /*alto*/ 
+    width: 1300px;  /*ancho*/
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;  
+    background-color: #252526;  /* Fondo tipo consola oscura (más claro que #1e1e1e) */
+    color: white;  
+}
+
+.salida{
+    height: 500px; /*alto*/ 
+    width: 1300px;  /*ancho*/
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;  
+    background-color: #252526;  /* Fondo tipo consola oscura (más claro que #1e1e1e) */
+    color: white;  
+    
+}
+
+.contenedorEjecutar{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* adjust the height to your liking */
+    width: 100%;
+    gap: 5px; /* Espacio entre los elementos flexibles */
+}
+
+button{
+    margin: 45px 5px;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.cuadrado {
+    width: 100px; /* Tamaño del cuadrado */
+    height: 30px; /* Tamaño del cuadrado */
+    border-radius: 10px; /* Redondea los bordes del cuadrado */
+    background-color: #b1b6bd; /* Color de fondo del cuadrado */
+    text-align: center; /* Centra la letra horizontalmente */
+    line-height: 30px; /* Centra la letra verticalmente */
+    font-size: 13px; /* Tamaño de la letra */
+    font-weight: bold; /* Peso de la letra */
+
+ }
+ .btn-custom {
+    background-color: #38434b; /* Azul tipo VSCode */
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: transform 0.1s ease, box-shadow 0.2s ease;
+}
+
+.btn-custom:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 10px #007acc;
+}
+
+.btn-custom:hover {
+    background-color: #005a9e;
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+  .navbar-nav {
+    text-align: center;
+  }
+  
+  .navbar-nav li {
+    display: inline-block;
+    margin: 0 10px; /* add some margin to separate the items */
+  }
+
+  #InIP{
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+
+  #btnLogOut{
+    margin: 7px;
+    border: 0;
+    padding: 0;
+  }
+
+  #imgIcon{
+    margin: 0px 0px 0px 25px; /*Arriba derecha abajo izquierda*/
+    border: 0;
+    padding: 0;
+  }
